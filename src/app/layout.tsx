@@ -1,6 +1,11 @@
+
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { ThemeProvider } from "@/components/theme-provider";
+import { ModeToggle } from "./components/mode-toggle";
+import { AppSidebar } from "./components/app-sidebar";
+import { SidebarProvider, SidebarTrigger, useSidebar } from "./components/ui/sidebar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -23,12 +28,19 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          <SidebarProvider>
+            <AppSidebar />
+            <SidebarTrigger className="mt-5 ml-5" />
+            {children}
+          </SidebarProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
