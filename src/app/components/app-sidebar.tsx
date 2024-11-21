@@ -12,7 +12,6 @@ import { Github, Linkedin, Twitter } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
-import { useState, useEffect } from "react"
 import { ModeToggle } from "./mode-toggle"
 import { useTheme } from "next-themes";
 
@@ -31,18 +30,14 @@ export function AppSidebar() {
             height={150}
             className="rounded-full"
           />
-          <h2 className="text-xl font-bold">Tu Nombre</h2>
+          <h2 className="text-xl font-bold">Lucas Caballero</h2>
           <p className="text-center text-sm text-muted-foreground">Desarrollador de Software Junior apasionado por crear soluciones innovadoras</p>
-
           <div className="flex space-x-2">
             <Link href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer">
               <Button size="icon" variant="ghost"><Github className="h-4 w-4" /></Button>
             </Link>
             <Link href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer">
               <Button size="icon" variant="ghost"><Linkedin className=" h-4 w-4" /></Button>
-            </Link>
-            <Link href="https://twitter.com/tuusuario" target="_blank" rel="noopener noreferrer">
-              <Button size="icon" variant="ghost"><Twitter className="h-4 w-4" /></Button>
             </Link>
           </div>
           <div className="flex flex-col items-center">

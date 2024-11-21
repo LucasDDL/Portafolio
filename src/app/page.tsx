@@ -6,14 +6,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Mail, Phone } from 'lucide-react'
 
-// Datos de ejemplo - reemplaza con tus propios datos
-const projects = [
-  { id: 1, name: "Proyecto 1", description: "Descripción breve del proyecto 1", image: "/placeholder.svg?height=100&width=200", technologies: ["React", "Node.js"] },
-  { id: 2, name: "Proyecto 2", description: "Descripción breve del proyecto 2", image: "/placeholder.svg?height=100&width=200", technologies: ["Vue", "Express"] },
-  { id: 3, name: "Proyecto 3", description: "Descripción breve del proyecto 3", image: "/placeholder.svg?height=100&width=200", technologies: ["Angular", "MongoDB"] },
-]
-
-const skills = ["JavaScript", "React", "Node.js", "Python", "SQL", "Git"]
+import { projects, skills } from '@/lib/utils'
 
 export default function Home() {
   return (
