@@ -15,10 +15,21 @@ export const projects = [
   },
   {
     id: 2,
-    name: "Proyecto 2",
-    description: "Descripción breve del proyecto 2",
+    name: "Herramienta Club",
+    description: "Características para Usuarios\nSistema de Autenticación\nInicio de sesión mediante Telegram\nVerificación en dos pasos\nPerfil de usuario personalizado\nSistema de onboarding para nuevos usuarios",
     image: "/placeholder.svg?height=100&width=200",
-    technologies: ["Vue", "Express"]
+    technologies: [
+      "Next.js",
+      "React",
+      "TailwindCSS",
+      "React Query",
+      "Prisma",
+      "PostgreSQL",
+      "Firebase",
+      "Telegram API",
+      "JWT",
+      "Vercel",
+      "Firebase Admin"]
   },
   {
     id: 3,
