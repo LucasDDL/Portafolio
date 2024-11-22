@@ -42,4 +42,47 @@ export const projects = [
 
 export const frameworks = ["Next.js", "React", "Node.js", "PrismaORM", "TailwindCSS", "Nest.js"]
 
-export const skills = ["HTML", "CSS", "TypeScript", "JavaScript", "React", "Node.js", "PrismaORM", "TailwindCSS", "Next.js", "Git"]
+// ... existing code ...
+
+export const skills = {
+  frontend: [
+    "Next.js",
+    "React",
+    "TailwindCSS",
+    "Shadcn/ui",
+    "React Query"
+  ],
+  backend: [
+    "Prisma ORM",
+    "PostgreSQL",
+    "Next.js API Routes"
+  ],
+  autenticacion: [
+    "NextAuth.js",
+    "Firebase Auth",
+    "Firebase Admin SDK",
+    "JWT",
+    "Telegram API"
+  ],
+  apisYServicios: [
+    "Discogs API",
+    "Cloudinary"
+  ],
+  caracteristicasAdicionales: [
+    "Fuse.js"
+  ],
+  infraestructura: [
+    "Vercel"
+  ]
+}
+
+export const nombresDeCategorias = {
+  frontend: "Frontend:",
+  backend: "Backend:",
+  apisYServicios: "APIs y Servicios:",
+  caracteristicasAdicionales: "Características Adicionales:",
+  autenticacion: "Autenticación:",
+  infraestructura: "Infraestructura:"
+}
+
+// ... existing code ...
