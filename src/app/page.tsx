@@ -1,5 +1,3 @@
-'use client'
-
 import { Badge } from "@/components/ui/badge"
 import { Mail, Phone } from 'lucide-react'
 
