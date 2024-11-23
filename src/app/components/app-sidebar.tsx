@@ -20,7 +20,7 @@ export function AppSidebar() {
       <Sidebar className={`transition-all duration-300 ease-in-out overflow-hidden border-r`}>
         <div className="flex flex-col items-center p-4 space-y-4">
           <Image
-            src="/placeholder.svg?height=150&width=150"
+            src="/lucas.jpg"
             alt="Tu foto"
             width={150}
             height={150}
