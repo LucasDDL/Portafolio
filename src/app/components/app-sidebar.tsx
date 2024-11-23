@@ -2,13 +2,9 @@
 
 import {
   Sidebar,
-  SidebarContent,
-  SidebarFooter,
-  SidebarGroup,
-  SidebarHeader,
-  useSidebar,
+
 } from "@/components/ui/sidebar"
-import { Github, Linkedin, Twitter } from "lucide-react"
+import { Github, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
