@@ -1,7 +1,6 @@
 'use client'
 
 import { Badge } from "@/components/ui/badge"
-import Link from 'next/link'
 import { Mail, Phone } from 'lucide-react'
 
 import { nombresDeCategorias, skills } from '@/lib/utils'
