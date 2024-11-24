@@ -1,16 +1,12 @@
 "use client"
 
-import {
-  Sidebar,
-
-} from "@/components/ui/sidebar"
+import { Sidebar } from "@/components/ui/sidebar"
 import { FileDown, Github, Linkedin } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
 import { ModeToggle } from "./mode-toggle"
 import { useTheme } from "next-themes";
-
 
 export function AppSidebar() {
   const { theme } = useTheme();

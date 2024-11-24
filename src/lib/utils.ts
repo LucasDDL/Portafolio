@@ -11,7 +11,7 @@ export const projects = [
     name: "Vinilero",
     description: "Una aplicación para gestionar tu colección de vinilos",
     image: "/placeholder.svg?height=100&width=200",
-    technologies: ["React", "Node.js", "PrismaORM", "MySQL", "TailwindCSS", "Next.js"]
+    technologies: ["React", "Node.js", "PrismaORM", "MySQL", "TailwindCSS", "Next.js", "Shadcn/ui"]
   },
   {
     id: 2,
@@ -29,7 +29,9 @@ export const projects = [
       "Telegram API",
       "JWT",
       "Vercel",
-      "Firebase Admin"]
+      "Firebase Admin",
+      "Shadcn/ui"
+    ]
   },
   {
     id: 3,
@@ -41,8 +43,6 @@ export const projects = [
 ]
 
 export const frameworks = ["Next.js", "React", "Node.js", "PrismaORM", "TailwindCSS", "Nest.js"]
-
-// ... existing code ...
 
 export const skills = {
   frontend: [
