@@ -50,7 +50,8 @@ export const skills = {
     "React",
     "TailwindCSS",
     "Shadcn/ui",
-    "React Query"
+    "React Query",
+    "Optimistic UI"
   ],
   backend: [
     "Prisma ORM",
@@ -58,11 +59,11 @@ export const skills = {
     "Next.js API Routes"
   ],
   autenticacion: [
-    "NextAuth.js",
+    "Auth.js",
     "Firebase Auth",
     "Firebase Admin SDK",
     "JWT",
-    "Telegram API"
+    "OAuth"
   ],
   apisYServicios: [
     "Discogs API",

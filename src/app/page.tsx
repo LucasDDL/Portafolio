@@ -47,7 +47,7 @@ export default function Home() {
               className="flex items-center space-x-2 hover:text-primary"
             >
               <Phone className="h-4 w-4" />
-              <span>+1 (234) 567-890</span>
+              <span>+59846233663</span>
             </a>
           </div>
         </footer>
