@@ -38,7 +38,7 @@ export function AppSidebar() {
             </Button>
           </a>
           <div className="flex space-x-2">
-            <Link href="https://github.com/tuusuario" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/LucasDDL" target="_blank" rel="noopener noreferrer">
               <Button size="icon" variant="ghost"><Github className="h-4 w-4" /></Button>
             </Link>
             <Link href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer">
