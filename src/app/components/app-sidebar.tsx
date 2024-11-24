@@ -25,7 +25,7 @@ export function AppSidebar() {
           <h2 className="text-xl font-bold">Lucas Caballero</h2>
           <p className="text-center text-sm text-muted-foreground">Desarrollador de Software Junior apasionado por crear soluciones innovadoras</p>
           <a
-            href="/curriculum.pdf"
+            href="/LucasCaballero-CV.pdf"
             download="LucasCaballero-CV.pdf"
             className="w-full"
           >
@@ -41,7 +41,7 @@ export function AppSidebar() {
             <Link href="https://github.com/LucasDDL" target="_blank" rel="noopener noreferrer">
               <Button size="icon" variant="ghost"><Github className="h-4 w-4" /></Button>
             </Link>
-            <Link href="https://linkedin.com/in/tuusuario" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/lucas-caballero-3662922b0" target="_blank" rel="noopener noreferrer">
               <Button size="icon" variant="ghost"><Linkedin className=" h-4 w-4" /></Button>
             </Link>
           </div>
