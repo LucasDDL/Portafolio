@@ -37,17 +37,17 @@ export default function Home() {
         </section>
         <footer className="mt-12 border-t pt-8">
           <h2 className="text-2xl font-bold mb-4">Contacto</h2>
-          <div className="flex flex-col space-x-2">
+          <div className="flex flex-col">
             <a href="mailto:dante.dylangg@gmail.com" className="flex items-center space-x-2">
               <Mail className="h-4 w-4" />
-              <span>dante.dylangg@gmail.com</span>
+              <span>lucaballero695@gmail.com</span>
             </a>
             <a
-              href="tel:+1234567890"
+              href="tel:+59899829791"
               className="flex items-center space-x-2 hover:text-primary"
             >
               <Phone className="h-4 w-4" />
-              <span>+59846233663</span>
+              <span>+59899829791</span>
             </a>
           </div>
         </footer>
